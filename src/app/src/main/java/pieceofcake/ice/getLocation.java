@@ -7,6 +7,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -39,8 +40,12 @@ public class getLocation extends FragmentActivity implements OnMapReadyCallback 
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng montreal = new LatLng(45.495571, -73.578692);
+        LatLng school = new LatLng(45.507145, -73.578562 );
+        LatLng newYork = new LatLng(40.744172, -73.991356);
+        mMap.addMarker(new MarkerOptions().position(montreal).title("Concordia University"));
+        mMap.addMarker(new MarkerOptions().position(school).title("McGill University"));
+        mMap.addMarker(new MarkerOptions().position(newYork).title("New York City"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(montreal));
     }
 }
