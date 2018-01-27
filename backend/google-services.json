@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "777991261734",
+    "firebase_url": "https://test-c7f0c.firebaseio.com",
+    "project_id": "test-c7f0c",
+    "storage_bucket": "test-c7f0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777991261734:android:c81e7803f97d46b3",
+        "android_client_info": {
+          "package_name": "com.noSlip.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777991261734-ted25jcn23vk2eukhfeoofj1iirsl7q8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR_R9SkgW5YeqZKXUrZM592Pg5I2b62QY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
