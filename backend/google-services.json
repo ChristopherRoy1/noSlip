@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:777991261734:android:c81e7803f97d46b3",
+        "mobilesdk_app_id": "1:777991261734:android:09fe5a9aa15196f6",
         "android_client_info": {
-          "package_name": "com.noSlip.android"
+          "package_name": "com.ice.android"
         }
       },
       "oauth_client": [
